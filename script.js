@@ -95,6 +95,7 @@ console.log(x, y);
 
 const averageAge = (ageKyle + ageSarah) / 2;
 console.log(ageKyle, ageSarah, averageAge);
+*/
 
 
 // const massMark = 78;
@@ -118,5 +119,4 @@ const heightKyle = 1.80;
 const kyleBMI = Math.round(massKyle / heightKyle ** 2);
 
 console.log('Kyle:' + kyleBMI + '%');
-*/
 

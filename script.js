@@ -95,7 +95,7 @@ console.log(x, y);
 
 const averageAge = (ageKyle + ageSarah) / 2;
 console.log(ageKyle, ageSarah, averageAge);
-*/
+
 
 
 // const massMark = 78;
@@ -120,3 +120,39 @@ const kyleBMI = Math.round(massKyle / heightKyle ** 2);
 
 console.log('Kyle:' + kyleBMI + '%');
 
+
+const firstName = 'Kyle';
+const job = 'Full-Stack Engineer';
+const birthYear = 1993;
+const year = 2023;
+
+const kyle = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+console.log(kyle);
+
+const kyleNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+console.log(kyleNew);
+
+console.log(`String
+multiple
+lines
+together`);
+*/
+
+const age = 15;
+
+if (age >= 18) {
+    console.log('Sarah can start driving license 🚗');
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+};
+
+const birthYear = 1993;
+
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+};
+console.log(century);
